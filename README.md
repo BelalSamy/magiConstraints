@@ -176,7 +176,7 @@ stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fi
 ### H
 | Height | desciption |
 | ------------- | ------------- |
-| .wrapContent | dynamic width grows and shrinks according to the content of the view |
+| .wrapContent | dynamic height grows and shrinks according to the content of the view |
 | .fixed  | takes 1 parameter `CGFloat`  for constant height value |
 | .equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
 
