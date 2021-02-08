@@ -3,24 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04BF36785BEF8329F0363660AE78255F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		196471EA124DDF4D326BF755CA0965C7 /* UIScrollView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470FC6A11E405D4EF101FB19475AF00 /* UIScrollView+magiCreate.swift */; };
 		3D3D0DD2164E7ECF6992CAED807B17AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5CC93D423D37E33DE3B616E4A1086889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9729D584666FAB955DBD3ED256A6D3FA /* UIView+miniConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638431E7A3AC33236F1D5D2E38BBF98C /* UIView+miniConstraints.swift */; };
-		A7D740530A27ACB1EDE2F8F5A1EA8E89 /* MagiConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C392DB10B8707F44F9B27ECC9A99B8 /* MagiConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3E3A11CD780373CAB75EF4B771886 /* UIView+magiConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38808B87F4B5F8CCA0EAFB1202F1F1 /* UIView+magiConstraints.swift */; };
-		DBA2BEAFCFA434552AF63DFCCEB74912 /* MagiConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C352312C332C5B510504A6B4FBC4E /* MagiConstraints-dummy.m */; };
+		7E9B062796AD40415A88E2322E3A64E5 /* UIScrollView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E1176D23F162E9B710D7360E785C7F /* UIScrollView+magiCreate.swift */; };
+		834679DC88B2E4C288103BD045A3B706 /* UIView+magiConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5EA10A3086D66377E8C4B06EC7721 /* UIView+magiConstraints.swift */; };
+		943DBBCD781FCEFB43649A394702F099 /* UIStackView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3FB857C9EA1414B60764123985349 /* UIStackView+magiCreate.swift */; };
+		A7D740530A27ACB1EDE2F8F5A1EA8E89 /* MagiConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 571CC8A526187B5F327A471C1A092E24 /* MagiConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA2BEAFCFA434552AF63DFCCEB74912 /* MagiConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B654CE53F2E4BF6010B1D45D170CBC60 /* MagiConstraints-dummy.m */; };
+		F301B42287E851858CC8AF3CCA3181DE /* UIView+miniConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3346728868DA234A8CAAB16EC3196C1 /* UIView+miniConstraints.swift */; };
 		F82105187B41DFA6BA13907DFAA65C9D /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB9222F452E35E176D6CB5BA8141027F /* UIStackView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8252B8384858C623F1B42C2BCD661371 /* UIStackView+magiCreate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8FC9F46F24E0F3D614D9DD2D29467DA8 /* PBXContainerItemProxy */ = {
+		BEFCEB9C73AE7D1656A85093697DEC39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,31 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C392DB10B8707F44F9B27ECC9A99B8 /* MagiConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiConstraints-umbrella.h"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E1176D23F162E9B710D7360E785C7F /* UIScrollView+magiCreate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+magiCreate.swift"; path = "MagiConstraints/MagiConstraints/Source/UIScrollView+magiCreate.swift"; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		36472C8EE23C72BEBC2C6844B21DBE93 /* MagiConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MagiConstraints-Info.plist"; sourceTree = "<group>"; };
-		3B01E82ACB3575C39771BD6327F27D23 /* MagiConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagiConstraints.debug.xcconfig; sourceTree = "<group>"; };
-		3B4534929F06BA7C746142428BDB4518 /* MagiConstraints.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MagiConstraints.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		638431E7A3AC33236F1D5D2E38BBF98C /* UIView+miniConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+miniConstraints.swift"; path = "MagiConstraints/Source/UIView+miniConstraints.swift"; sourceTree = "<group>"; };
+		473B8E98D8B2B76C06F45A31461B7389 /* MagiConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagiConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		571CC8A526187B5F327A471C1A092E24 /* MagiConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiConstraints-umbrella.h"; sourceTree = "<group>"; };
 		6BA2A4CBDE1ED60FD85FA021853A30BC /* MagiConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MagiConstraints.framework; path = MagiConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7470FC6A11E405D4EF101FB19475AF00 /* UIScrollView+magiCreate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+magiCreate.swift"; path = "MagiConstraints/Source/UIScrollView+magiCreate.swift"; sourceTree = "<group>"; };
+		75B5EA10A3086D66377E8C4B06EC7721 /* UIView+magiConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+magiConstraints.swift"; path = "MagiConstraints/MagiConstraints/Source/UIView+magiConstraints.swift"; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		7B9310A138EAB93BF672ED0C8144C2A1 /* MagiConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagiConstraints.release.xcconfig; sourceTree = "<group>"; };
-		8252B8384858C623F1B42C2BCD661371 /* UIStackView+magiCreate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+magiCreate.swift"; path = "MagiConstraints/Source/UIStackView+magiCreate.swift"; sourceTree = "<group>"; };
-		8F38808B87F4B5F8CCA0EAFB1202F1F1 /* UIView+magiConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+magiConstraints.swift"; path = "MagiConstraints/Source/UIView+magiConstraints.swift"; sourceTree = "<group>"; };
-		914C352312C332C5B510504A6B4FBC4E /* MagiConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagiConstraints-dummy.m"; sourceTree = "<group>"; };
+		8AD3FB857C9EA1414B60764123985349 /* UIStackView+magiCreate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+magiCreate.swift"; path = "MagiConstraints/MagiConstraints/Source/UIStackView+magiCreate.swift"; sourceTree = "<group>"; };
+		8D9B6E7B62354A4FDF5B39123575CF90 /* MagiConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiConstraints-prefix.pch"; sourceTree = "<group>"; };
+		989A6C92C5304920F65AB361FB116D52 /* MagiConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagiConstraints.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BDE0FD278909C4482C4468BCA4D515 /* MagiConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagiConstraints.modulemap; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C6B1D76FE3054E84A46C990BD59D9654 /* MagiConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiConstraints-prefix.pch"; sourceTree = "<group>"; };
+		B654CE53F2E4BF6010B1D45D170CBC60 /* MagiConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagiConstraints-dummy.m"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E35FD29D65F9AA6C1C742062F0951A51 /* MagiConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagiConstraints.modulemap; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3346728868DA234A8CAAB16EC3196C1 /* UIView+miniConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+miniConstraints.swift"; path = "MagiConstraints/MagiConstraints/Source/UIView+miniConstraints.swift"; sourceTree = "<group>"; };
+		F7005060170613D3A172B495AA73F77E /* MagiConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MagiConstraints-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,49 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212EF76EAE25248CC5E483B9356C3D26 /* MagiConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				23E1176D23F162E9B710D7360E785C7F /* UIScrollView+magiCreate.swift */,
+				8AD3FB857C9EA1414B60764123985349 /* UIStackView+magiCreate.swift */,
+				75B5EA10A3086D66377E8C4B06EC7721 /* UIView+magiConstraints.swift */,
+				F3346728868DA234A8CAAB16EC3196C1 /* UIView+miniConstraints.swift */,
+				526EEFE37EC5B876A7FA4421B8D2AE29 /* Support Files */,
+			);
+			name = MagiConstraints;
+			path = MagiConstraints;
+			sourceTree = "<group>";
+		};
+		526EEFE37EC5B876A7FA4421B8D2AE29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BDE0FD278909C4482C4468BCA4D515 /* MagiConstraints.modulemap */,
+				B654CE53F2E4BF6010B1D45D170CBC60 /* MagiConstraints-dummy.m */,
+				F7005060170613D3A172B495AA73F77E /* MagiConstraints-Info.plist */,
+				8D9B6E7B62354A4FDF5B39123575CF90 /* MagiConstraints-prefix.pch */,
+				571CC8A526187B5F327A471C1A092E24 /* MagiConstraints-umbrella.h */,
+				473B8E98D8B2B76C06F45A31461B7389 /* MagiConstraints.debug.xcconfig */,
+				989A6C92C5304920F65AB361FB116D52 /* MagiConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MagiConstraints";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6EF4C39FD72D593DB1E2616CEDEDE466 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E35FD29D65F9AA6C1C742062F0951A51 /* MagiConstraints.modulemap */,
-				914C352312C332C5B510504A6B4FBC4E /* MagiConstraints-dummy.m */,
-				36472C8EE23C72BEBC2C6844B21DBE93 /* MagiConstraints-Info.plist */,
-				C6B1D76FE3054E84A46C990BD59D9654 /* MagiConstraints-prefix.pch */,
-				07C392DB10B8707F44F9B27ECC9A99B8 /* MagiConstraints-umbrella.h */,
-				3B01E82ACB3575C39771BD6327F27D23 /* MagiConstraints.debug.xcconfig */,
-				7B9310A138EAB93BF672ED0C8144C2A1 /* MagiConstraints.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/MagiConstraints";
-			sourceTree = "<group>";
-		};
-		8287417E78812D090ACF529035F8FCE1 /* MagiConstraints */ = {
-			isa = PBXGroup;
-			children = (
-				7470FC6A11E405D4EF101FB19475AF00 /* UIScrollView+magiCreate.swift */,
-				8252B8384858C623F1B42C2BCD661371 /* UIStackView+magiCreate.swift */,
-				8F38808B87F4B5F8CCA0EAFB1202F1F1 /* UIView+magiConstraints.swift */,
-				638431E7A3AC33236F1D5D2E38BBF98C /* UIView+miniConstraints.swift */,
-				E6AFCEF7E23EF53348486A6F057C2FA1 /* Pod */,
-				6EF4C39FD72D593DB1E2616CEDEDE466 /* Support Files */,
-			);
-			name = MagiConstraints;
-			path = ../../MagiConstraints;
-			sourceTree = "<group>";
-		};
-		8F55EA2FAF97A5E169DA39BA0E77D808 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8287417E78812D090ACF529035F8FCE1 /* MagiConstraints */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -139,6 +129,14 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		9F5EAA16661DCECE6AEE37DCF3710178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				212EF76EAE25248CC5E483B9356C3D26 /* MagiConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8F55EA2FAF97A5E169DA39BA0E77D808 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9F5EAA16661DCECE6AEE37DCF3710178 /* Pods */,
 				E53409602B583B42DC0399E12FA00E51 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -173,14 +171,6 @@
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E6AFCEF7E23EF53348486A6F057C2FA1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3B4534929F06BA7C746142428BDB4518 /* MagiConstraints.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +207,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8A9FBF77E9C41FF23EF2718413331939 /* PBXTargetDependency */,
+				6F57C22DDC0F6617AE245E75F693DFD7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -252,7 +242,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -301,28 +291,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBA2BEAFCFA434552AF63DFCCEB74912 /* MagiConstraints-dummy.m in Sources */,
-				196471EA124DDF4D326BF755CA0965C7 /* UIScrollView+magiCreate.swift in Sources */,
-				FB9222F452E35E176D6CB5BA8141027F /* UIStackView+magiCreate.swift in Sources */,
-				AEA3E3A11CD780373CAB75EF4B771886 /* UIView+magiConstraints.swift in Sources */,
-				9729D584666FAB955DBD3ED256A6D3FA /* UIView+miniConstraints.swift in Sources */,
+				7E9B062796AD40415A88E2322E3A64E5 /* UIScrollView+magiCreate.swift in Sources */,
+				943DBBCD781FCEFB43649A394702F099 /* UIStackView+magiCreate.swift in Sources */,
+				834679DC88B2E4C288103BD045A3B706 /* UIView+magiConstraints.swift in Sources */,
+				F301B42287E851858CC8AF3CCA3181DE /* UIView+miniConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A9FBF77E9C41FF23EF2718413331939 /* PBXTargetDependency */ = {
+		6F57C22DDC0F6617AE245E75F693DFD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MagiConstraints;
 			target = 8AC34F7AFD93A9D7E211BA0263C2C69B /* MagiConstraints */;
-			targetProxy = 8FC9F46F24E0F3D614D9DD2D29467DA8 /* PBXContainerItemProxy */;
+			targetProxy = BEFCEB9C73AE7D1656A85093697DEC39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4E3D7ABCCD004B00CEA44CFFBAC28BCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B9310A138EAB93BF672ED0C8144C2A1 /* MagiConstraints.release.xcconfig */;
+			baseConfigurationReference = 989A6C92C5304920F65AB361FB116D52 /* MagiConstraints.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -396,7 +386,7 @@
 		};
 		6F224FBF60E58DD2DE463B1E9800D07A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B01E82ACB3575C39771BD6327F27D23 /* MagiConstraints.debug.xcconfig */;
+			baseConfigurationReference = 473B8E98D8B2B76C06F45A31461B7389 /* MagiConstraints.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
