@@ -1,10 +1,10 @@
 ## MagiConstraints
 Syntactic sugar for AutoLayout to speed up making constraints in one-line-function like magic ✨
 
-[![CI Status](https://img.shields.io/travis/BelalSamy/MagiConstriants.svg?style=flat)](https://travis-ci.org/BelalSamy/MagiConstriants)
-[![Version](https://img.shields.io/cocoapods/v/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
-[![License](https://img.shields.io/cocoapods/l/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
-[![Platform](https://img.shields.io/cocoapods/p/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
+<p align="center">
+    <img src="Art/banner.png" width="890" alt="MagiConstraints"/>
+    <img src="Art/demo.gif" width="890" alt="MagiConstraints"/>
+</p>
 
 ## Features
 
