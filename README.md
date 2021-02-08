@@ -146,6 +146,7 @@ containerView.addSubviews([view1, view2])
 ```swift
 // magiCreate 
 view.addSubview(stackView)
+let subviews = [view1, view2, view3]
 stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fillEqually(20)) // spacing = 20
 ```
 
