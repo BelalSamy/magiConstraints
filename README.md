@@ -3,7 +3,6 @@ Syntactic sugar for AutoLayout to speed up making constraints in one-line-functi
 
 <p align="center">
     <img src="Art/banner.png" width="890" alt="MagiConstraints"/>
-    <img src="Art/demo.gif" width="890" alt="MagiConstraints"/>
 </p>
 
 ## Features
@@ -22,12 +21,13 @@ Syntactic sugar for AutoLayout to speed up making constraints in one-line-functi
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```swift 
-    import 'MagiConstraints'
+    import 'MagiConstriants'
 ```
 
 ### ViewController
 
 ```swift 
+// Views
 var scrollView = UIScrollView()
 var containerView = UIView()
 var label = UILabel()
