@@ -2,7 +2,7 @@
 Syntactic sugar for AutoLayout to speed up making constraints in one-line-function like magic ✨
 
 <p align="center">
-    <img src="Art/banner.png" width="890" alt="MagiConstraints"/>
+    <img src="Art/banner.png" alt="MagiConstraints"/>
     <img src="Art/demo.gif" width="890" alt="MagiConstraints"/>
 </p>
 
