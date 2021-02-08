@@ -83,12 +83,12 @@ Constraints behave different if it's attach to `superview` or `any other view`
 - [X] top to `bottom` of view
 - [X] bottom to `top` of view
 
+###`💡 Look at the documentation part to discover different cases for each constraint enum parameter !`
+
 ### addSubviews ( Examples )
 ```swift
 view.addSubviews([subview1, subview2, subview3])
 ```
-
-`💡 Look at the documentation part to discover different cases for each constraint enum parameter !`
 
 ### magiConstraints ( Examples )
 ```swift
