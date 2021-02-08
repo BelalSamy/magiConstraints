@@ -1,0 +1,6 @@
+framework module MagiConstraints {
+  umbrella header "MagiConstraints-umbrella.h"
+
+  export *
+  module * { export * }
+}

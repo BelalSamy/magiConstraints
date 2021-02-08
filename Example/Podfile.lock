@@ -1,0 +1,16 @@
+PODS:
+  - MagiConstraints (1.0.0)
+
+DEPENDENCIES:
+  - MagiConstraints (from `../MagiConstraints`)
+
+EXTERNAL SOURCES:
+  MagiConstraints:
+    :path: "../MagiConstraints"
+
+SPEC CHECKSUMS:
+  MagiConstraints: e0bc002f114c37508408c85d6dbde8a0c7cb0589
+
+PODFILE CHECKSUM: b93463dbe7833e3a90a11d0f37cd3166363eea87
+
+COCOAPODS: 1.10.1
