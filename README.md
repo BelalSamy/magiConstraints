@@ -1,11 +1,13 @@
 ## MagiConstraints
 Syntactic sugar for AutoLayout to speed up making constraints in one-line-function like magic ✨
+
 [![CI Status](https://img.shields.io/travis/BelalSamy/MagiConstriants.svg?style=flat)](https://travis-ci.org/BelalSamy/MagiConstriants)
 [![Version](https://img.shields.io/cocoapods/v/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
 [![License](https://img.shields.io/cocoapods/l/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
 [![Platform](https://img.shields.io/cocoapods/p/MagiConstriants.svg?style=flat)](https://cocoapods.org/pods/MagiConstriants)
 
 ## Features
+
 - [X] Constraints are active by default.
 - [X] No need to set `translatesAutoresizingMaskIntoConstraints` because `MagiConstraints` does it for you.
 - [X] Satisfy all constraints `X-axis`, `Width`, `Y-axis` & `Height` in one line function `magiConstraints()`
@@ -16,9 +18,46 @@ Syntactic sugar for AutoLayout to speed up making constraints in one-line-functi
 
 
 ## Example
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift 
+    import 'MagiConstraints'
+```
+
+### ViewController
+
+```swift 
+var scrollView = UIScrollView()
+var containerView = UIView()
+var label = UILabel()
+var greenView = UIView()
+var stackView = UIStackView()
+var view1 = UIView()
+var view2 = UIView()
+var view3 = UIView()
+```
+
+### ViewDidLoad
+
+```swift
+view.addSubview(scrollView)
+scrollView.magiCreate(container: containerView)
+containerView.addSubviews([label, greenView])
+
+greenView.addSubview(stackView)
+let subviews = [view1, view2, view3]
+stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fillEqually(20))
+
+// magic constraints ( satisify all constraints in one line )
+label.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .TopAndBottom(nil, 20, greenView, 20))
+greenView.magiConstraints(XW: .leadingAndCenter(nil, 20), Y: .bottom(nil, 20), H: .fixed(500))
+stackView.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .topAndCenter(nil, 20))
+```
+
+
 ## Installation
+
 MagiConstriants is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -27,7 +66,9 @@ pod 'MagiConstriants'
 ```
 
 ## Usage
+
 Constraints behave different if it's attach to `superview` or `any other view`
+
  `nil = superview` by default, so its easy to change superview without change alot of code 
 
 ### superview :
@@ -59,47 +100,51 @@ Constraints behave different if it's attach to `superview` or `any other view`
 // write the code here 
 ```
 
+## Documentation ( Enum Cases )
 
-## Enums Cases
-
-| X-axis (X)  | description |
+### X 
+| X-axis | description |
 | ------------- | ------------- |
 | leading | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
 | trailing  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
 | center  | takes 1 parameter `UIView` for the view ( center horizontally ) |
 
-| Width (W) | desciption |
+### W
+| Width | desciption |
 | ------------- | ------------- |
 | wrapContent | dynamic width grows and shrinks according to the content of the view |
 | fixed  | takes 1 parameter `CGFloat`  for constant width value |
 | equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
 
-| Y-axis (Y)  | description |
+### Y
+| Y-axis | description |
 | ------------- | ------------- |
 | top | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
 | bottom  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
 | center  | takes 1 parameter `UIView` for the view ( center vertically ) |
 
-| Height (H) | desciption |
+### H
+| Height | desciption |
 | ------------- | ------------- |
 | wrapContent | dynamic width grows and shrinks according to the content of the view |
 | fixed  | takes 1 parameter `CGFloat`  for constant height value |
 | equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
 
-| X-axis & Width (XW) | description |
+### XW
+| X-axis & Width | description |
 | ------------- | ------------- |
 | leadingAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
 | trailingAndCenter  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
 | leadingAndTrailing  | takes 4 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value |
 | leadingAndTrailingAndHeight  | takes 5 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value + `W` enum as a parameter to set the Width |
 
-| Y-axis & Height (YH) | description |
+### YH
+| Y-axis & Height | description |
 | ------------- | ------------- |
 | topAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
 | bottomAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
 | topAndBottom | takes 4 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value |
 | topAndBottomAndHeight | takes 5 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value + `H` enum as a parameter to set the Height |
-
 
 ## Author
 
