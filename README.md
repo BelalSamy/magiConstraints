@@ -154,46 +154,46 @@ stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fi
 ### X 
 | X-axis | description |
 | ------------- | ------------- |
-| leading | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
-| trailing  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
-| center  | takes 1 parameter `UIView` for the view ( center horizontally ) |
+| .leading | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
+| .trailing  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
+| .center  | takes 1 parameter `UIView` for the view ( center horizontally ) |
 
 ### W
 | Width | desciption |
 | ------------- | ------------- |
-| wrapContent | dynamic width grows and shrinks according to the content of the view |
-| fixed  | takes 1 parameter `CGFloat`  for constant width value |
-| equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
+| .wrapContent | dynamic width grows and shrinks according to the content of the view |
+| .fixed  | takes 1 parameter `CGFloat`  for constant width value |
+| .equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
 
 ### Y
 | Y-axis | description |
 | ------------- | ------------- |
-| top | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
-| bottom  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
-| center  | takes 1 parameter `UIView` for the view ( center vertically ) |
+| .top | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
+| .bottom  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value |
+| .center  | takes 1 parameter `UIView` for the view ( center vertically ) |
 
 ### H
 | Height | desciption |
 | ------------- | ------------- |
-| wrapContent | dynamic width grows and shrinks according to the content of the view |
-| fixed  | takes 1 parameter `CGFloat`  for constant height value |
-| equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
+| .wrapContent | dynamic width grows and shrinks according to the content of the view |
+| .fixed  | takes 1 parameter `CGFloat`  for constant height value |
+| .equal  | takes 2 parameters `UIView` for the view and `CGFloat`  for multiplier value |
 
 ### XW
 | X-axis & Width | description |
 | ------------- | ------------- |
-| leadingAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
-| trailingAndCenter  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
-| leadingAndTrailing  | takes 4 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value |
-| leadingAndTrailingAndHeight  | takes 5 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value + `W` enum as a parameter to set the Width |
+| .leadingAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
+| .trailingAndCenter  | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center Horizontally to the superview |
+| .leadingAndTrailing  | takes 4 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value |
+| .leadingAndTrailingAndHeight  | takes 5 parameters `UIView` for the leadingView and `CGFloat`  for constant padding value + another `UIView` for the trailingView and `CGFloat`  for constant padding value + `W` enum as a parameter to set the Width |
 
 ### YH
 | Y-axis & Height | description |
 | ------------- | ------------- |
-| topAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
-| bottomAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
-| topAndBottom | takes 4 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value |
-| topAndBottomAndHeight | takes 5 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value + `H` enum as a parameter to set the Height |
+| .topAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
+| .bottomAndCenter | takes 2 parameters `UIView` for the view and `CGFloat`  for constant padding value ( Always center vertically to the superview |
+| .topAndBottom | takes 4 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value |
+| .topAndBottomAndHeight | takes 5 parameters `UIView` for the topView and `CGFloat`  for constant padding value + another `UIView` for the bottomView and `CGFloat`  for constant padding value + `H` enum as a parameter to set the Height |
 
 ## Author
 
