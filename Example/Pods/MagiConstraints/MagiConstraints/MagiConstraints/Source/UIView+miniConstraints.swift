@@ -312,7 +312,7 @@ public extension UIView {
                     self.centerYAnchor.constraint(equalTo: superview!.centerYAnchor).isActive = true
                 }
                 
-               case .TopAndBottom(let view1, let value1, let view2, let value2):
+               case .topAndBottom(let view1, let value1, let view2, let value2):
                 if let view1 = view1 {
                     self.topAnchor.constraint(equalTo: view1.bottomAnchor, constant: value1).isActive = true
                 } else {
@@ -325,7 +325,7 @@ public extension UIView {
                     self.bottomAnchor.constraint(equalTo: superview!.bottomAnchor, constant: -value2).isActive = true
                 }
            
-               case .TopAndBottomAndHeight(let view1, let value1, let view2, let value2, let H):
+               case .topAndBottomAndHeight(let view1, let value1, let view2, let value2, let H):
                     if let view1 = view1 {
                         self.topAnchor.constraint(equalTo: view1.bottomAnchor, constant: value1).isActive = true
                     } else {

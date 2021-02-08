@@ -10,30 +10,6 @@ import UIKit
 
 public extension UIView {
     
-//MARK:- MAGIC CONSTRAINTS
-    
-    /* Notes ----------------------
-    - magiConstraints is syntactic sugar to make autolayout easier to use
-    - the idea is to satisfy all 4 constraints ( x-axis, width, y-axis, height ) in one line function
-    - by covering variations of each constraint cases using enums parameters
-    - nil = superview "by default"
-    - so its easy to change superview without change alot of code
-    - also (nil) is very short word so didnt take much text
-     
-    - constraints behave different if it's attach to ( superview or any another view )
-        superview :
-            - leading to ( leading ) of ( superview )
-            - trailing to ( trailing ) of ( superview )
-            - top to ( top ) of ( superview )
-            - bottom to ( bottom ) of ( superview )
-     
-         any other view :
-             - leading to ( trailing ) of ( view )
-             - trailing to ( leading ) of ( view )
-             - top to ( bottom ) of ( view )
-             - bottom to ( top ) of ( view )
-    */
-
     //MARK:- Enums
     
     enum X {
@@ -70,8 +46,8 @@ public extension UIView {
     enum YH {
         case topAndCenter(UIView?, CGFloat) // nil = superview
         case bottomAndCenter(UIView?, CGFloat) // nil = superview
-        case TopAndBottom(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
-        case TopAndBottomAndHeight(UIView?, CGFloat, UIView?, CGFloat, H) // nil = superview
+        case topAndBottom(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
+        case topAndBottomAndHeight(UIView?, CGFloat, UIView?, CGFloat, H) // nil = superview
     }
     
     //MARK:- ADD SUBVIEWS

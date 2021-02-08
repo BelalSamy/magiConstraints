@@ -17,8 +17,8 @@ public extension UIScrollView {
     
     func magiCreate(container: UIView) {
         self.addSubview(container)
-        self.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .TopAndBottom(nil, 0, nil, 0))
-        container.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .TopAndBottom(nil, 0, nil, 0))
+        self.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .topAndBottom(nil, 0, nil, 0))
+        container.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .topAndBottom(nil, 0, nil, 0))
     
         self.autoresizingMask = .flexibleHeight
         self.bounces = true

@@ -47,9 +47,10 @@ class ViewController: UIViewController {
         stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fillEqually(20))
 
         // magic constraints ( satisify all constraints in one line - like magic )
-        label.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .TopAndBottom(nil, 20, greenView, 20))
+        label.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .topAndBottom(nil, 20, greenView, 20))
         greenView.magiConstraints(XW: .leadingAndCenter(nil, 20), Y: .bottom(nil, 20), H: .fixed(500))
         stackView.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .topAndCenter(nil, 20))
+        
     }
 
     func setViewsProperties() {

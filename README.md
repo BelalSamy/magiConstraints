@@ -2,7 +2,11 @@
 Syntactic sugar for AutoLayout to speed up making constraints in one-line-function like magic ✨
 
 <p align="center">
+<<<<<<< HEAD
     <img src="Art/banner.png" width="890" alt="MagiConstraints"/>
+=======
+    <img src="Art/banner.png" alt="MagiConstraints"/>
+>>>>>>> c02fa9aa7a0654ea931fa1afd690daf3c8b69b01
 </p>
 
 ## Features
@@ -65,7 +69,7 @@ it, simply add the following line to your Podfile:
 pod 'MagiConstriants'
 ```
 
-## Usage
+## Usage 
 
 Constraints behave different if it's attach to `superview` or `any other view`
 
@@ -83,21 +87,70 @@ Constraints behave different if it's attach to `superview` or `any other view`
 - [X] top to `bottom` of view
 - [X] bottom to `top` of view
 
-### magiConstraints 
+### addSubviews ( Examples )
 ```swift
-// write the code here 
+view.addSubviews([subview1, subview2, subview3])
 ```
-### miniConstraints
+
+`💡 Look at the documentation part to discover different cases for each constraint enum parameter !`
+
+### magiConstraints ( Examples )
 ```swift
-// write the code here 
+// XWYH 
+view1.magiConstraints(X: .center(nil), W: .fixed(500), Y: .center(nil), H: .wrapContent)
+view1.magiConstraints(X: .leading(nil, 20), W: .wrapContent, Y: .top(nil, 20), H: .equal(view2, 0.5))
+
+// XW, Y, H
+view1.magiConstraints(XW: .leadingAndCenter(nil, 20), Y: .top(nil, 20), H: .wrapContent)
+view1.magiConstraints(XW: .leadingAndTrailing(nil, 20, view2, 20), Y: .center(nil), H: .fixed(500))
+
+// X, W, YH
+view1.magiConstraints(X: .center(nil), W: .equal(nil, 0.75), YH: .TopAndBottom(nil, 20, view2, 20))
+view1.magiConstraints(X: .leading(view2, 20), W: .equal(nil, 1), YH: .topAndCenter(nil, 20))
+
+// XW, YH
+view1.magiConstraints(XW: .leadingAndCenter(nil, 20), YH: .topAndCenter(nil, 20))
+view1.magiConstraints(XW: .leadingAndTrailing(nil, 10, nil, 10), YH: .bottomAndCenter(nil, 20))
 ```
-### Dynamic UIScrollView
+### miniConstraints ( Examples )
 ```swift
-// write the code here 
+// Size Only - W, H
+view1.miniConstraints(W: .fixed(500), H: .wrapContent)
+
+// Position Only - X, Y
+view1.miniConstraints(X: .center(nil), Y: .bottom(view2, 20))
+
+// X Only
+view1.miniConstraints(X: .leading(nil, 20))
+
+// W Only
+view1.miniConstraints(W: .equal(view2, 0.5))
+
+// Y Only
+view1.miniConstraints(Y: .center(nil))
+
+// H Only
+view1.miniConstraints(H: .wrapContent)
+
+// XW Only
+view1.miniConstraints(XW: .leadingAndTrailing(nil, 20, nil, 20))
+
+// YH Only
+view1.miniConstraints(YH: .topAndCenter(nil, 20))
 ```
-### UIStackView
+### Dynamic UIScrollView ( Examples )
 ```swift
-// write the code here 
+// magiCreate
+view.addSubview(scrollView)
+scrollView.magiCreate(container: containerView)
+containerView.addSubviews([view1, view2])
+
+```
+### UIStackView ( Examples )
+```swift
+// magiCreate 
+view.addSubview(stackView)
+stackView.magiCreate(subviews: subviews, direction: .vertical, distribution: .fillEqually(20)) // spacing = 20
 ```
 
 ## Documentation ( Enum Cases )
