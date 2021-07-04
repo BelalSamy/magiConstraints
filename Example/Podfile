@@ -7,6 +7,6 @@ target 'Example' do
 
   # Pods for Example
   # pod 'MagiConstraints', :path => '../MagiConstraints'
-  pod 'MagiConstraints'
+  pod 'MagiConstraints', '1.1.0'
 
 end
