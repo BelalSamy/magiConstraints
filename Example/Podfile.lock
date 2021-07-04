@@ -1,16 +1,16 @@
 PODS:
-  - MagiConstraints (1.0.0)
+  - MagiConstraints (1.1.0)
 
 DEPENDENCIES:
-  - MagiConstraints
+  - MagiConstraints (= 1.1.0)
 
 SPEC REPOS:
   trunk:
     - MagiConstraints
 
 SPEC CHECKSUMS:
-  MagiConstraints: e0bc002f114c37508408c85d6dbde8a0c7cb0589
+  MagiConstraints: 94c8fe71e185d2232945152801a56933380d0591
 
-PODFILE CHECKSUM: 9983d2b72af1776a61f742a515d86fca7c416fd9
+PODFILE CHECKSUM: b372219b1a885a3cadb5a96e38efd69a9fcb0adf
 
 COCOAPODS: 1.10.1
