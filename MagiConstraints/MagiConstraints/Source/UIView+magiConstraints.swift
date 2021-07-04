@@ -10,6 +10,21 @@ import UIKit
 
 public extension UIView {
     
+    //MARK:- ADD SUBVIEWS
+    func addSubviews(_ views: [UIView]) {
+        for view in views {
+            self.addSubview(view)
+        }
+    }
+    
+    func addSubviews(parentViews: [UIView], viewsArray: [[UIView]]) {
+        for parent in parentViews {
+            for views in viewsArray {
+                parent.addSubviews(views)
+            }
+        }
+    }
+    
 //MARK:- MAGIC CONSTRAINTS
     
     /* Notes ----------------------
@@ -40,6 +55,9 @@ public extension UIView {
         case leading(UIView?, CGFloat) // nil = superview
         case trailing(UIView?, CGFloat) // nil = superview
         case center(UIView?) // nil = superview
+        // safeArea
+        case leadingToSafeArea(UIView?, CGFloat)
+        case trailingToSafeArea(UIView?, CGFloat)
     }
     
     enum W {
@@ -52,6 +70,10 @@ public extension UIView {
        case top(UIView?, CGFloat) // nil = superview
        case bottom(UIView?, CGFloat) // nil = superview
        case center(UIView?) // nil = superview
+        // safeArea
+       case topToSafeArea(UIView?, CGFloat)
+       case bottomToSafeArea(UIView?, CGFloat)
+
     }
     
     enum H {
@@ -65,6 +87,10 @@ public extension UIView {
         case trailingAndCenter(UIView?, CGFloat) // nil = superview
         case leadingAndTrailing(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
         case leadingAndTrailingAndWidth(UIView?, CGFloat, UIView?, CGFloat, W) // nil = superview
+        // safeArea
+        case leadingAndTrailingBothToSafeArea(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
+        case leadingToSafeAreaAndTrailingAndWidth(UIView?, CGFloat, UIView?, CGFloat, W) // nil = superview
+        case leadingAndTrailingToSafeAreaAndWidth(UIView?, CGFloat, UIView?, CGFloat, W) // nil = superview
     }
     
     enum YH {
@@ -72,14 +98,17 @@ public extension UIView {
         case bottomAndCenter(UIView?, CGFloat) // nil = superview
         case TopAndBottom(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
         case TopAndBottomAndHeight(UIView?, CGFloat, UIView?, CGFloat, H) // nil = superview
+        // safeArea
+        case TopAndBottomBothToSafeArea(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
+        case TopToSafeAreaAndBottomAndHeight(UIView?, CGFloat, UIView?, CGFloat, H) // nil = superview
+        case TopAndBottomToSafeAreaAndHeight(UIView?, CGFloat, UIView?, CGFloat, H) // nil = superview
     }
     
-    //MARK:- ADD SUBVIEWS
-    func addSubviews(_ views: [UIView]) {
-        for view in views {
-            self.addSubview(view)
-        }
+    enum Shortcut {
+        case fillSuperView(CGFloat)
+        case fillToSafeArea(UIView?, CGFloat, UIView?, CGFloat) // nil = superview
     }
+    
 
     //MARK:- (1) XWYH
     func magiConstraints(X: X, W: W, Y: Y, H: H) {
@@ -107,6 +136,19 @@ public extension UIView {
     func magiConstraints(XW: XW, YH: YH) {
         miniConstraints(XW: XW)
         miniConstraints(YH: YH)
+    }
+    
+    //MARK:- (5) Shortcuts for common Scenarios
+    func magiConstraints(shortcut: Shortcut) {
+        switch shortcut {
+        
+        case .fillSuperView(let value):
+            magiConstraints(XW: .leadingAndCenter(nil, value), YH: .topAndCenter(nil, value))
+            
+        case .fillToSafeArea(let view1, let value1, let view2, let value2):
+            magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .TopAndBottomBothToSafeArea(view1, value1, view2, value2))
+
+        }
     }
     
 } // extention

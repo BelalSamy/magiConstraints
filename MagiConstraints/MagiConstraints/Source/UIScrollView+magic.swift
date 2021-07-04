@@ -1,21 +1,18 @@
 //
-//  UIScrollView+magiCreate.swift
-//  PexelsClone
+//  UIScrollView+magic.swift
+//  Pods
 //
-//  Created by Belal Samy on 2/7/21.
-//  Copyright © 2021 Belal Samy. All rights reserved.
+//  Created by Belal Samy on 24/06/2021.
 //
 
+import Foundation
 import UIKit
-
-//MARK:- MAGIC SCROLLVIEW
 
 public extension UIScrollView {
     
-    // MARK:- magiCreate
-    // create dynamic scrollview in one line ( like magic )
-    
+    //MARK:- Func - magiCreate
     func magiCreate(container: UIView) {
+        // create dynamic scrollview in one line ( like magic )
         self.addSubview(container)
         self.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .TopAndBottom(nil, 0, nil, 0))
         container.magiConstraints(XW: .leadingAndCenter(nil, 0), YH: .TopAndBottom(nil, 0, nil, 0))
@@ -24,4 +21,4 @@ public extension UIScrollView {
         self.bounces = true
         self.showsHorizontalScrollIndicator = true
     }
-} // extension
+}

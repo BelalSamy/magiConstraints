@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		41A8672025D1596600CAD262 /* MagiConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A8671E25D1596600CAD262 /* MagiConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41A8672B25D1599600CAD262 /* UIView+miniConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8672725D1599500CAD262 /* UIView+miniConstraints.swift */; };
-		41A8672C25D1599600CAD262 /* UIScrollView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8672825D1599500CAD262 /* UIScrollView+magiCreate.swift */; };
-		41A8672D25D1599600CAD262 /* UIStackView+magiCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8672925D1599500CAD262 /* UIStackView+magiCreate.swift */; };
-		41A8672E25D1599600CAD262 /* UIView+magiConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8672A25D1599500CAD262 /* UIView+magiConstraints.swift */; };
+		41BBAC0626923A4800781A1C /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBABFC26923A4700781A1C /* Magic.swift */; };
+		41BBAC0726923A4800781A1C /* UILabel+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBABFD26923A4700781A1C /* UILabel+magic.swift */; };
+		41BBAC0826923A4800781A1C /* UIStackView+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBABFE26923A4700781A1C /* UIStackView+magic.swift */; };
+		41BBAC0926923A4800781A1C /* UIView+returnMagiConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBABFF26923A4800781A1C /* UIView+returnMagiConstraints.swift */; };
+		41BBAC0A26923A4800781A1C /* UIScrollView+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0026923A4800781A1C /* UIScrollView+magic.swift */; };
+		41BBAC0B26923A4800781A1C /* MagicPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0126923A4800781A1C /* MagicPattern.swift */; };
+		41BBAC0C26923A4800781A1C /* UIViewController+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0226923A4800781A1C /* UIViewController+magic.swift */; };
+		41BBAC0D26923A4800781A1C /* UIImageView+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0326923A4800781A1C /* UIImageView+magic.swift */; };
+		41BBAC0E26923A4800781A1C /* UIView+magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0426923A4800781A1C /* UIView+magic.swift */; };
+		41BBAC0F26923A4800781A1C /* ViewsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC0526923A4800781A1C /* ViewsFactory.swift */; };
+		41BBAC1226923AB600781A1C /* UIView+magiConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC1026923AB600781A1C /* UIView+magiConstraints.swift */; };
+		41BBAC1326923AB600781A1C /* UIView+miniConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBAC1126923AB600781A1C /* UIView+miniConstraints.swift */; };
+		41BBAC1526923DDA00781A1C /* MagiConstraints.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 41BBAC1426923DDA00781A1C /* MagiConstraints.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41A8671B25D1596600CAD262 /* MagiConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagiConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A8671E25D1596600CAD262 /* MagiConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagiConstraints.h; sourceTree = "<group>"; };
 		41A8671F25D1596600CAD262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41A8672725D1599500CAD262 /* UIView+miniConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+miniConstraints.swift"; sourceTree = "<group>"; };
-		41A8672825D1599500CAD262 /* UIScrollView+magiCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+magiCreate.swift"; sourceTree = "<group>"; };
-		41A8672925D1599500CAD262 /* UIStackView+magiCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+magiCreate.swift"; sourceTree = "<group>"; };
-		41A8672A25D1599500CAD262 /* UIView+magiConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+magiConstraints.swift"; sourceTree = "<group>"; };
+		41BBABFC26923A4700781A1C /* Magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		41BBABFD26923A4700781A1C /* UILabel+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+magic.swift"; sourceTree = "<group>"; };
+		41BBABFE26923A4700781A1C /* UIStackView+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+magic.swift"; sourceTree = "<group>"; };
+		41BBABFF26923A4800781A1C /* UIView+returnMagiConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+returnMagiConstraints.swift"; sourceTree = "<group>"; };
+		41BBAC0026923A4800781A1C /* UIScrollView+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+magic.swift"; sourceTree = "<group>"; };
+		41BBAC0126923A4800781A1C /* MagicPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicPattern.swift; sourceTree = "<group>"; };
+		41BBAC0226923A4800781A1C /* UIViewController+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+magic.swift"; sourceTree = "<group>"; };
+		41BBAC0326923A4800781A1C /* UIImageView+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+magic.swift"; sourceTree = "<group>"; };
+		41BBAC0426923A4800781A1C /* UIView+magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+magic.swift"; sourceTree = "<group>"; };
+		41BBAC0526923A4800781A1C /* ViewsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsFactory.swift; sourceTree = "<group>"; };
+		41BBAC1026923AB600781A1C /* UIView+magiConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+magiConstraints.swift"; sourceTree = "<group>"; };
+		41BBAC1126923AB600781A1C /* UIView+miniConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+miniConstraints.swift"; sourceTree = "<group>"; };
+		41BBAC1426923DDA00781A1C /* MagiConstraints.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagiConstraints.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 		41A8671D25D1596600CAD262 /* MagiConstraints */ = {
 			isa = PBXGroup;
 			children = (
+				41BBAC1426923DDA00781A1C /* MagiConstraints.podspec */,
 				41A8671E25D1596600CAD262 /* MagiConstraints.h */,
 				41A8671F25D1596600CAD262 /* Info.plist */,
 				41A8672625D1599500CAD262 /* Source */,
@@ -64,10 +83,18 @@
 		41A8672625D1599500CAD262 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				41A8672A25D1599500CAD262 /* UIView+magiConstraints.swift */,
-				41A8672725D1599500CAD262 /* UIView+miniConstraints.swift */,
-				41A8672825D1599500CAD262 /* UIScrollView+magiCreate.swift */,
-				41A8672925D1599500CAD262 /* UIStackView+magiCreate.swift */,
+				41BBABFC26923A4700781A1C /* Magic.swift */,
+				41BBAC0026923A4800781A1C /* UIScrollView+magic.swift */,
+				41BBABFE26923A4700781A1C /* UIStackView+magic.swift */,
+				41BBAC0526923A4800781A1C /* ViewsFactory.swift */,
+				41BBAC0126923A4800781A1C /* MagicPattern.swift */,
+				41BBAC1126923AB600781A1C /* UIView+miniConstraints.swift */,
+				41BBAC1026923AB600781A1C /* UIView+magiConstraints.swift */,
+				41BBABFF26923A4800781A1C /* UIView+returnMagiConstraints.swift */,
+				41BBAC0426923A4800781A1C /* UIView+magic.swift */,
+				41BBABFD26923A4700781A1C /* UILabel+magic.swift */,
+				41BBAC0326923A4800781A1C /* UIImageView+magic.swift */,
+				41BBAC0226923A4800781A1C /* UIViewController+magic.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -110,11 +137,12 @@
 		41A8671225D1596600CAD262 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Belal Samy";
 				TargetAttributes = {
 					41A8671A25D1596600CAD262 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -141,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BBAC1526923DDA00781A1C /* MagiConstraints.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A8672B25D1599600CAD262 /* UIView+miniConstraints.swift in Sources */,
-				41A8672E25D1599600CAD262 /* UIView+magiConstraints.swift in Sources */,
-				41A8672D25D1599600CAD262 /* UIStackView+magiCreate.swift in Sources */,
-				41A8672C25D1599600CAD262 /* UIScrollView+magiCreate.swift in Sources */,
+				41BBAC0726923A4800781A1C /* UILabel+magic.swift in Sources */,
+				41BBAC0826923A4800781A1C /* UIStackView+magic.swift in Sources */,
+				41BBAC0D26923A4800781A1C /* UIImageView+magic.swift in Sources */,
+				41BBAC0F26923A4800781A1C /* ViewsFactory.swift in Sources */,
+				41BBAC0E26923A4800781A1C /* UIView+magic.swift in Sources */,
+				41BBAC0C26923A4800781A1C /* UIViewController+magic.swift in Sources */,
+				41BBAC0B26923A4800781A1C /* MagicPattern.swift in Sources */,
+				41BBAC0A26923A4800781A1C /* UIScrollView+magic.swift in Sources */,
+				41BBAC1326923AB600781A1C /* UIView+miniConstraints.swift in Sources */,
+				41BBAC0626923A4800781A1C /* Magic.swift in Sources */,
+				41BBAC0926923A4800781A1C /* UIView+returnMagiConstraints.swift in Sources */,
+				41BBAC1226923AB600781A1C /* UIView+magiConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +224,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -250,6 +288,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -284,6 +323,7 @@
 		41A8672425D1596600CAD262 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8A4HTMPS6P;
@@ -302,6 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -310,6 +351,7 @@
 		41A8672525D1596600CAD262 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8A4HTMPS6P;
